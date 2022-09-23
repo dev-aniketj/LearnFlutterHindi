@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '3_image.dart';
+
 class Contain_2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -53,6 +55,7 @@ class Contain_2 extends StatelessWidget {
                   style: GoogleFonts.lato(
                       textStyle: const TextStyle(fontSize: 24)),
                 ),
+                ImageInsert_3(),
               ],
             )));
   }

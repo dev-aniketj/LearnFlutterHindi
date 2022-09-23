@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 import './pages/1_hello_world.dart';
 import './pages/2_container.dart';
+import 'pages/3_image.dart';
 
-void main() => runApp(Contain_2());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '1': (context) => HelloWorld_1(),
         '2': (context) => Contain_2(),
+        '3': (context) => ImageInsert_3(),
       },
     );
   }
