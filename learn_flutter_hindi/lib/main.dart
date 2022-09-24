@@ -6,6 +6,7 @@ import 'pages/3_image.dart';
 import 'pages/4_raised_button.dart';
 import 'pages/5_appbar.dart';
 import 'pages/6_bottom_navbar.dart';
+import 'pages/7_bottom_appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'MyApp',
       themeMode: ThemeMode.light,
-      initialRoute: '6',
+      initialRoute: '7',
       routes: {
         '1': (context) => HelloWorld_1(),
         '2': (context) => Contain_2(),
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         '4': (context) => RaisedButton_4(),
         '5': (context) => AppBar_5(),
         '6': (context) => BottomNavBar_6(),
+        '7': (context) => BottomAppBar_7(),
       },
     );
   }
