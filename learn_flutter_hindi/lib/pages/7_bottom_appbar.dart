@@ -49,6 +49,7 @@ class BottomAppBar_7 extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+          elevation: 4.0,
           onPressed: () => {debugPrint("Search Action Button is clicked.")},
           tooltip: 'Search Floating Action Button',
           backgroundColor: Colors.deepPurple.shade400,
