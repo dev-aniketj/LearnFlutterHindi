@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter_hindi/pages/10_gridview.dart';
 
 import './pages/1_hello_world.dart';
 import './pages/2_container.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'MyApp',
       themeMode: ThemeMode.light,
-      initialRoute: '9',
+      initialRoute: '10',
       routes: {
         '1': (context) => HelloWorld_1(),
         '2': (context) => Contain_2(),
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         '7': (context) => BottomAppBar_7(),
         '8': (context) => Listview_8(),
         '9': (context) => ListView_9(),
+        '10': (context) => GridView_10(),
       },
     );
   }
