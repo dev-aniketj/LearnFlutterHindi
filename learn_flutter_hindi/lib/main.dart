@@ -7,6 +7,8 @@ import 'pages/4_raised_button.dart';
 import 'pages/5_appbar.dart';
 import 'pages/6_bottom_navbar.dart';
 import 'pages/7_bottom_appbar.dart';
+import 'pages/8_listview.dart';
+import 'pages/9_listview.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,9 +16,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'MyApp',
       themeMode: ThemeMode.light,
-      initialRoute: '7',
+      initialRoute: '9',
       routes: {
         '1': (context) => HelloWorld_1(),
         '2': (context) => Contain_2(),
@@ -25,6 +28,8 @@ class MyApp extends StatelessWidget {
         '5': (context) => AppBar_5(),
         '6': (context) => BottomNavBar_6(),
         '7': (context) => BottomAppBar_7(),
+        '8': (context) => Listview_8(),
+        '9': (context) => ListView_9(),
       },
     );
   }
