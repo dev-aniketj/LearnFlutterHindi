@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:learn_flutter_hindi/pages/10_gridview.dart';
 import 'package:learn_flutter_hindi/pages/11_gridview.dart';
+import 'package:learn_flutter_hindi/pages/12_horizontal_list.dart';
+import 'package:learn_flutter_hindi/pages/13_long_list.dart';
 
 import './pages/1_hello_world.dart';
 import './pages/2_container.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'MyApp',
       themeMode: ThemeMode.light,
-      initialRoute: '11',
+      initialRoute: '13',
       routes: {
         '1': (context) => HelloWorld_1(),
         '2': (context) => Contain_2(),
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
         '9': (context) => ListView_9(),
         '10': (context) => GridView_10(),
         '11': (context) => Gridview_11(),
+        '12': (context) => Horizontal_List_12(),
+        '13': (context) => LongList_13(),
       },
     );
   }
