@@ -10,7 +10,7 @@ class LongList_13 extends StatelessWidget {
     var listItems = getListElements();
     var listview = ListView.builder(itemBuilder: (context, index) {
       return ListTile(
-        title: Text("List Item :${listItems[index]}"),
+        title: Text("List Item : ${listItems[index]}"),
       );
     });
     return listview;
